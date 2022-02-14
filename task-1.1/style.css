@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.wrapper {
+    height: 96vh;
+    display:flex;
+    flex-direction: column;
+    flex:1 0 auto;
+    text-align: center;
+}
+.date {
+    margin: 0 0 22px 0;
+}
+.discrition {
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-style: italic;
+}
+.was-born {
+    margin: 10px 10px 0 10px;
+    border: 2px solid lightgray;
+}
+img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+.title {
+    margin: 2px ;
+    height: 40px;
+    font-family: "PT Sans";
+    font-size: 15px;
+    font-style: italic;
+    background: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-img {
+    margin: 10px;
+    border: 2px solid lightgray;
+}
+.div-title {
+    margin: 10px;
+    text-align: left;
+}
+.footer {
+    text-align: center;
+    flex: 0 0 auto;
+}
